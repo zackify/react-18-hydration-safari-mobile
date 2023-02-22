@@ -30,7 +30,7 @@ export default function Index() {
           hi
           <br />
           this has a br and then a phone number: 1-800-GAMBLER. hydration cant
-          handle this
+          handle this... :D
         </section>
       </ul>
     </div>
