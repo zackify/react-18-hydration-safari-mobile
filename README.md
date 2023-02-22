@@ -1,6 +1,6 @@
 # DEMO
 
-- go to render.com url
+- go to https://react-18-hydration-bug.onrender.com
 - open it on safari mobile on an iPhone preferably. Seems to happen in mobile firefox, i believe they all use the same rendering engine.
 - use the develop menu on safari on a mac to view the dev console.
 - see the hydration error message
