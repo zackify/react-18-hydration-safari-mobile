@@ -4,6 +4,7 @@
 - open it on safari mobile on an iPhone preferably. Seems to happen in mobile firefox, i believe they all use the same rendering engine.
 - use the develop menu on safari on a mac to view the dev console.
 - see the hydration error message
+- refresh a few times if you do not see it
 
 ```
 [Error] Warning: Text content did not match. Server: "this has a br and then a phone number: " Client: "this has a br and then a phone number: 1-800-GAMBLER. hydration cant handle this :("
