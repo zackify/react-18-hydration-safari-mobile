@@ -5,6 +5,43 @@
 - use the develop menu on safari on a mac to view the dev console.
 - see the hydration error message
 
+```
+[Error] Warning: Text content did not match. Server: "this has a br and then a phone number: " Client: "this has a br and then a phone number: 1-800-GAMBLER. hydration cant handle this :("
+section
+ul
+div
+Index
+RemixRoute@http://192.168.4.136:3000/build/_shared/chunk-5LP52SDM.js:4170:5
+RenderedRoute@http://192.168.4.136:3000/build/_shared/chunk-5LP52SDM.js:2605:11
+Outlet@http://192.168.4.136:3000/build/_shared/chunk-5LP52SDM.js:2765:25
+body
+html
+App
+RemixRoute@http://192.168.4.136:3000/build/_shared/chunk-5LP52SDM.js:4170:5
+RenderedRoute@http://192.168.4.136:3000/build/_shared/chunk-5LP52SDM.js:2605:11
+RenderErrorBoundary@http://192.168.4.136:3000/build/_shared/chunk-5LP52SDM.js:2952:14
+Routes@http://192.168.4.136:3000/build/_shared/chunk-5LP52SDM.js:2827:12
+Router@http://192.168.4.136:3000/build/_shared/chunk-5LP52SDM.js:2778:12
+RouterProvider@http://192.168.4.136:3000/build/_shared/chunk-5LP52SDM.js:2725:11
+RemixErrorBoundary@http://192.168.4.136:3000/build/_shared/chunk-5LP52SDM.js:3798:10
+RemixBrowser@http://192.168.4.136:3000/build/_shared/chunk-5LP52SDM.js:5106:55
+	printWarning (entry.client-RJ24HZSS.js:524)
+	error (entry.client-RJ24HZSS.js:508)
+	checkForUnmatchedText (entry.client-RJ24HZSS.js:7063)
+	didNotMatchHydratedTextInstance (entry.client-RJ24HZSS.js:8332)
+	prepareToHydrateHostTextInstance (entry.client-RJ24HZSS.js:9200)
+	completeWork (entry.client-RJ24HZSS.js:15851)
+	completeUnitOfWork (entry.client-RJ24HZSS.js:18719)
+	performUnitOfWork (entry.client-RJ24HZSS.js:18704)
+	workLoopConcurrent (entry.client-RJ24HZSS.js:18687)
+	renderRootConcurrent (entry.client-RJ24HZSS.js:18662)
+	performConcurrentWorkOnRoot (entry.client-RJ24HZSS.js:18178)
+	performConcurrentWorkOnRoot
+	workLoop (entry.client-RJ24HZSS.js:200)
+	flushWork (entry.client-RJ24HZSS.js:179)
+	performWorkUntilDeadline (entry.client-RJ24HZSS.js:387)
+```
+
 ## Development
 
 From your terminal:
